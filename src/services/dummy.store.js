@@ -1,3 +1,4 @@
+import React from 'react';
 import { decorate, observable } from 'mobx';
 import { observer } from 'mobx-react';
 import { remove } from 'lodash';
