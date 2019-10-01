@@ -1,7 +1,7 @@
-import React from "react";
-import ReactDOM from "react-dom";
-
-import "./styles.css";
+import React from 'react';
+import ReactDOM from 'react-dom';
+import 'antd/dist/antd.css';
+import './styles.css';
 
 function App() {
   return (
@@ -12,5 +12,5 @@ function App() {
   );
 }
 
-const rootElement = document.getElementById("root");
+const rootElement = document.getElementById('root');
 ReactDOM.render(<App />, rootElement);
